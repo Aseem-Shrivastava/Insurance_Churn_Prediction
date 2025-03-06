@@ -10,6 +10,17 @@ dependencies:
   - typer
   - loguru
   - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - xgboost
   - pip:
+    - imbalanced-learn
+    - mlflow
     - python-dotenv
     - -e .
